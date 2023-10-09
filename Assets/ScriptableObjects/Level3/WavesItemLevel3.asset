@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c6b08d332b490e9a1daee8f79c0b3f, type: 3}
+  m_Name: WavesItemLevel3
+  m_EditorClassIdentifier: 
+  timeBetweenEnemySpawn: 0.55
+  timeBetweenWaves: 12
+  enemyMaxOffset: 0.3
+  waveItems:
+  - waveGenerationPoints: 4
+    enemyTypes: 00000000
+  - waveGenerationPoints: 8
+    enemyTypes: 0000000001000000
+  - waveGenerationPoints: 15
+    enemyTypes: 0000000001000000
+  - waveGenerationPoints: 18
+    enemyTypes: 000000000100000002000000
+  - waveGenerationPoints: 30
+    enemyTypes: 000000000100000002000000
+  - waveGenerationPoints: 38
+    enemyTypes: 00000000010000000200000003000000
+  - waveGenerationPoints: 49
+    enemyTypes: 00000000010000000200000003000000
+  - waveGenerationPoints: 67
+    enemyTypes: 04000000010000000200000003000000
+  - waveGenerationPoints: 88
+    enemyTypes: 000000000500000003000000
+  - waveGenerationPoints: 90
+    enemyTypes: 0000000002000000030000000400000006000000
+  - waveGenerationPoints: 110
+    enemyTypes: 00000000010000000400000005000000
+  - waveGenerationPoints: 120
+    enemyTypes: 00000000030000000400000005000000
+  - waveGenerationPoints: 150
+    enemyTypes: 00000000010000000200000003000000040000000500000006000000

@@ -1,0 +1,906 @@
+<Items >
+  <levelModelItems>
+    <list>
+      <LevelModelItem menuLvlName="Level 1" mapName="level1Map" previewImage="../images/levels/screenMap1.png">
+
+        <gameManagerItem>
+          <GameManagerItem baseHealth="20" startGold="150" bonusAfterWaves="2"/>
+        </gameManagerItem>
+
+        <map>
+          <MapItem mapLayer="
+            3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+            3,3,3,3,3,3,3,3,3,3,6,6,6,6,3,3,3,3,3,3,3,3,3,3,3,
+            3,3,3,3,3,3,3,3,3,9,9,9,9,9,3,3,3,3,3,3,3,3,3,3,3,
+            3,3,3,3,6,6,2,3,3,9,6,5,7,9,3,3,3,3,3,3,3,3,3,3,3,
+            3,3,6,9,9,9,9,3,3,9,6,3,3,9,3,3,3,3,3,3,3,3,3,3,3,
+            3,3,6,9,6,6,9,3,3,9,6,3,3,9,4,3,3,3,3,3,3,3,3,3,3,
+            3,3,3,9,5,6,9,3,3,9,3,3,3,9,6,6,7,6,6,3,3,3,3,3,3,
+            3,3,3,9,6,6,9,9,9,9,3,3,3,9,9,9,9,9,6,3,3,3,3,3,3,
+            3,3,3,9,3,3,3,6,4,6,3,3,3,6,6,3,3,9,6,3,3,3,3,3,3,
+            3,3,2,9,3,3,3,3,3,3,3,3,3,3,3,3,7,9,6,3,3,3,3,3,3,
+            3,3,6,8,6,3,3,3,3,3,3,6,6,3,6,6,3,9,5,3,3,3,3,3,3,
+            3,3,6,6,6,3,3,3,3,3,6,1,9,9,9,9,9,9,3,3,3,3,3,3,3,
+            3,3,3,3,3,3,3,3,3,3,6,4,6,6,6,3,3,3,3,3,3,3,3,3,3,
+            3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3"
+          />
+        </map>
+
+        <mapPath>
+          <MapPathItem enemyMaxOffset="0.3">
+            <mapPathPoints>
+              <list>
+                <Point x="4" y="11"/>
+                <Point x="4" y="5"/>
+                <Point x="7" y="5"/>
+                <Point x="7" y="08"/>
+                <Point x="10" y="8"/>
+                <Point x="10" y="3"/>
+                <Point x="14" y="3"/>
+                <Point x="14" y="8"/>
+                <Point x="18" y="8"/>
+                <Point x="18" y="12"/>
+                <Point x="12" y="12"/>
+              </list>
+            </mapPathPoints>
+          </MapPathItem>
+        </mapPath>
+
+        <wavesGeneratorItem>
+          <WavesGeneratorItem timeBetweenEnemySpawn="550" timeBetweenWaves="12000">
+            <waves>
+              <list>
+                <WaveItem waveValue="4">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="8">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="15">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="18">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="30">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="44">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="63">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="81">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                      <reference id="enemy_5"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="96">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_6"/>
+                      <reference id="enemy_4"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="105">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                      <reference id="enemy_5"/>
+                      <reference id="enemy_7"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="124">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_6"/>
+                      <reference id="enemy_5"/>
+                      <reference id="enemy_2"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="150">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_4"/>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_5"/>
+                      <reference id="enemy_6"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="200">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                      <reference id="enemy_5"/>
+                      <reference id="enemy_6"/>
+                      <reference id="enemy_7"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+              </list>
+            </waves>
+          </WavesGeneratorItem>
+        </wavesGeneratorItem>
+
+      </LevelModelItem>
+
+      <LevelModelItem menuLvlName="Level 2" mapName="level2Map" previewImage="../images/levels/screenMap2.png">
+
+        <gameManagerItem>
+          <GameManagerItem baseHealth="20" startGold="160" bonusAfterWaves="2"/>
+        </gameManagerItem>
+
+        <map>
+          <MapItem mapLayer="
+           3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,6,3,6,6,3,6,6,3,2,6,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,6,9,9,9,9,9,9,9,9,9,9,6,3,6,8,3,3,3,3,3,3,3,
+3,3,6,3,9,5,3,3,3,6,6,3,3,9,6,7,6,9,3,3,3,3,3,3,3,
+3,3,3,6,9,6,3,3,3,3,3,3,3,9,9,9,9,9,6,3,3,3,3,3,3,
+3,3,6,3,9,3,3,3,3,3,3,3,3,3,6,6,3,6,4,3,3,3,3,3,3,
+3,3,3,6,9,3,3,6,6,6,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,6,3,9,6,6,9,9,9,9,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,6,9,6,2,9,6,7,9,3,3,5,6,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,9,9,9,9,6,6,9,9,9,9,9,9,1,3,3,3,3,3,3,3,3,
+3,3,3,3,3,6,6,4,3,3,3,3,3,6,6,6,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,6,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3"/>
+        </map>
+
+        <mapPath>
+          <MapPathItem enemyMaxOffset="0.3">
+            <mapPathPoints>
+              <list>
+                <Point x="18" y="4"/>
+                <Point x="18" y="6"/>
+                <Point x="14" y="6"/>
+                <Point x="14" y="4"/>
+                <Point x="5" y="4"/>
+                <Point x="5" y="11"/>
+                <Point x="8" y="11"/>
+                <Point x="8" y="9"/>
+                <Point x="11" y="9"/>
+                <Point x="11" y="11"/>
+                <Point x="17" y="11"/>
+              </list>
+            </mapPathPoints>
+          </MapPathItem>
+        </mapPath>
+
+        <wavesGeneratorItem>
+          <WavesGeneratorItem timeBetweenEnemySpawn="550" timeBetweenWaves="12000">
+            <waves>
+              <list>
+                <WaveItem waveValue="4">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="8">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="15">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="18">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="30">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="44">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="63">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="81">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                      <reference id="enemy_5"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="96">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_6"/>
+                      <reference id="enemy_4"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="105">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                      <reference id="enemy_5"/>
+                      <reference id="enemy_7"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="124">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_6"/>
+                      <reference id="enemy_5"/>
+                      <reference id="enemy_2"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="150">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_4"/>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_5"/>
+                      <reference id="enemy_6"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="200">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                      <reference id="enemy_5"/>
+                      <reference id="enemy_6"/>
+                      <reference id="enemy_7"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+              </list>
+            </waves>
+          </WavesGeneratorItem>
+        </wavesGeneratorItem>
+      </LevelModelItem>
+
+      <LevelModelItem menuLvlName="Level 3" mapName="level3Map" previewImage="../images/levels/screenMap3.png">
+        <gameManagerItem>
+          <GameManagerItem baseHealth="20" startGold="200" bonusAfterWaves="2"/>
+        </gameManagerItem>
+
+        <map>
+          <MapItem mapLayer="
+        3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,8,3,3,3,3,3,3,6,3,3,6,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,9,6,3,3,9,9,9,9,9,9,9,9,3,3,3,3,3,3,3,3,3,
+3,3,3,6,9,3,3,3,9,7,3,3,3,3,3,9,3,3,3,3,3,3,3,3,3,
+3,3,9,9,9,3,3,4,9,9,9,3,3,3,3,9,6,3,3,3,3,3,3,3,3,
+3,6,9,3,5,3,3,3,3,3,9,3,3,3,6,9,9,3,3,3,3,3,3,3,3,
+3,3,9,3,3,3,3,3,3,3,9,6,3,3,3,3,9,3,3,1,3,3,3,3,3,
+3,3,9,9,9,9,9,9,3,3,9,2,3,3,3,3,9,9,9,9,3,3,3,3,3,
+3,3,3,6,3,3,3,9,6,3,9,3,3,3,3,3,3,6,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,9,9,9,9,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3"/>
+        </map>
+
+        <mapPath>
+          <MapPathItem enemyMaxOffset="0.3">
+            <mapPathPoints>
+              <list>
+                <Point x="5" y="4"/>
+                <Point x="5" y="7"/>
+                <Point x="3" y="7"/>
+                <Point x="3" y="10"/>
+                <Point x="8" y="10"/>
+                <Point x="8" y="12"/>
+                <Point x="11" y="12"/>
+                <Point x="11" y="7"/>
+                <Point x="9" y="7"/>
+                <Point x="9" y="5"/>
+                <Point x="16" y="5"/>
+                <Point x="16" y="8"/>
+                <Point x="17" y="8"/>   
+                <Point x="17" y="10"/>     
+                <Point x="20" y="10"/>    
+                <Point x="20" y="9"/>          
+              </list>
+            </mapPathPoints>
+          </MapPathItem>
+        </mapPath>
+
+        <wavesGeneratorItem>
+          <WavesGeneratorItem timeBetweenEnemySpawn="550" timeBetweenWaves="12000">
+            <waves>
+              <list>
+                <WaveItem waveValue="4">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="8">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="15">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="18">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="30">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="38">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="49">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="67">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                      <reference id="enemy_5"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="88">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_6"/>
+                      <reference id="enemy_4"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="90">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                      <reference id="enemy_5"/>
+                      <reference id="enemy_7"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="110">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_6"/>
+                      <reference id="enemy_5"/>
+                      <reference id="enemy_2"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="120">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_4"/>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_5"/>
+                      <reference id="enemy_6"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+                <WaveItem waveValue="150">
+                  <typeOfEnemiesInWave>
+                    <list>
+                      <reference id="enemy_1"/>
+                      <reference id="enemy_2"/>
+                      <reference id="enemy_3"/>
+                      <reference id="enemy_4"/>
+                      <reference id="enemy_5"/>
+                      <reference id="enemy_6"/>
+                      <reference id="enemy_7"/>
+                    </list>
+                  </typeOfEnemiesInWave>
+                </WaveItem>
+
+              </list>
+            </waves>
+          </WavesGeneratorItem>
+        </wavesGeneratorItem>
+      </LevelModelItem>
+    </list>
+  </levelModelItems>
+
+  <tileInformation>
+    <list>
+      <TileInformationItem tileType="road" textInformation="Just a road" tilesetId="8"
+                           uiImage="../images/ui_tiles/road.png"/>
+
+      <TileInformationItem tileType="normal" textInformation="Tile to build, nothing special" tilesetId="5"
+                           uiImage="../images/ui_tiles/normal.png" />
+
+      <TileInformationItem tileType="unknown" textInformation="What is that?" tilesetId="-1"
+                           uiImage="../images/ui_tiles/unknown.png" />
+
+      <TileInformationItem tileType="bonus_damage" textInformation="Damage bonus  +2 additional damage"
+                           tilesetId="1"
+                           uiImage="../images/ui_tiles/bonus_damage.png">
+        <tileBonusItem>
+          <TileBonusItem bonusValue="2"/>
+        </tileBonusItem>
+      </TileInformationItem>
+
+      <TileInformationItem tileType="bonus_range" textInformation="Range bonus  +25% additional range" tilesetId="6"
+                           uiImage="../images/ui_tiles/bonus_range.png">
+        <tileBonusItem>
+          <TileBonusItem bonusValue="0.25"/>
+        </tileBonusItem>
+      </TileInformationItem>
+
+      <TileInformationItem tileType="bonus_firerate" textInformation="Fire rate bonus +50% additional fire rate"
+                           tilesetId="4"
+                           uiImage="../images/ui_tiles/bonus_firerate.png">
+        <tileBonusItem>
+          <TileBonusItem bonusValue="0.50"/>
+        </tileBonusItem>
+      </TileInformationItem>
+
+      <TileInformationItem tileType="bonus_experience" textInformation="Experience bonus +100% additional experience"
+                           tilesetId="3"
+                           uiImage="../images/ui_tiles/bonus_experience.png" >
+        <tileBonusItem>
+          <TileBonusItem bonusValue="1"/>
+        </tileBonusItem>
+      </TileInformationItem>
+    </list>
+  </tileInformation>
+
+  <towersItem>
+    <TowersInformationItem uiAvailableTextColor="#ffffffff" uiUnavailableTextColor="#ffff0000"
+                           towerRadius="../images/Circle.png" uiSelectedItem="../images/Selection.png">
+      <towers>
+        <list>
+
+          <TowerItem platformTowerImage="../images/towers/beater/TowerBeaterPlatform.png"
+                     rotationTowerImage="../images/towers/beater/TowerBeaterRotation.png"
+                     towerImage="../images/towers/beater/TowerBeaterUI.png"
+                     unavailableTowerImage="../images/towers/beater/TowerBeaterUI_N.png"
+                     attackRadius="2.6" fireRate="2.5" baseTowerCost="20" multipleCostCoefficient="1.3"
+                     upgradeTowerCost="15" multipleUpgradeCostCoefficient="1.2" towerType="beater" id="beater"
+                     upgradeExperience="30" upgradeExperienceMultiplier="1.3">
+            <damageItem>
+              <DamageItem baseDamage="5" healthDamageMultiplier="5" armorDamageMultiplier="3"
+                          shieldDamageMultiplier="2"/>
+            </damageItem>
+           <bullet>
+              <BulletItem bulletImage="../images/bullets/bulletBeater.png" speed="200"/>
+            </bullet>
+          </TowerItem>
+
+          <TowerItem platformTowerImage="../images/towers/tesla/TowerTeslaPlatform.png"
+                     rotationTowerImage="../images/towers/tesla/TowerTeslaRotation.png"
+                     towerImage="../images/towers/tesla/TowerTeslaUI.png"
+                     unavailableTowerImage="../images/towers/tesla/TowerTeslaUI_N.png"
+                     attackRadius="2" fireRate="0.35" baseTowerCost="30" multipleCostCoefficient="1.15"
+                     upgradeTowerCost="15" multipleUpgradeCostCoefficient="1.15" towerType="tesla" id="tesla"
+                     upgradeExperience="30" upgradeExperienceMultiplier="1.15">
+            <damageItem>
+              <DamageItem baseDamage="4" healthDamageMultiplier="5" armorDamageMultiplier="7"
+                          shieldDamageMultiplier="5"/>
+            </damageItem>
+            <bullet>
+              <BulletItem bulletImage="../images/bullets/lightingCircle.png" speed="200"/>
+            </bullet>
+          </TowerItem>
+
+          <TowerItem platformTowerImage="../images/towers/luna/TowerLunaPlatform.png"
+                     rotationTowerImage="../images/towers/luna/TowerLunaRotation.png"
+                     towerImage="../images/towers/luna/TowerLunaUI.png"
+                     unavailableTowerImage="../images/towers/luna/TowerLunaUI_N.png"
+                     attackRadius="2.2" fireRate="3" baseTowerCost="40" multipleCostCoefficient="1.3"
+                     upgradeTowerCost="15" multipleUpgradeCostCoefficient="1.15" towerType="luna" id="luna"
+                     upgradeExperience="35" upgradeExperienceMultiplier="1.3">
+            <damageItem>
+              <DamageItem baseDamage="4" healthDamageMultiplier="3" armorDamageMultiplier="7"
+                          shieldDamageMultiplier="3" />
+            </damageItem>
+            <bullet>
+              <BulletItem bulletImage="../images/bullets/bulletLuna.png" speed="200"/>
+            </bullet>
+          </TowerItem>
+
+          <TowerItem platformTowerImage="../images/towers/sniper/TowerSniperPlatform.png"
+                     rotationTowerImage="../images/towers/sniper/TowerSniperRotation.png"
+                     towerImage="../images/towers/sniper/TowerSniperUI.png"
+                     unavailableTowerImage="../images/towers/sniper/TowerSniperUI_N.png"
+                     attackRadius="3" fireRate="1" baseTowerCost="45" multipleCostCoefficient="1.15"
+                     upgradeTowerCost="12" multipleUpgradeCostCoefficient="1.15" towerType="sniper" id="sniper"
+                     upgradeExperience="19" upgradeExperienceMultiplier="1.17">
+            <damageItem>
+              <DamageItem baseDamage="6" healthDamageMultiplier="4" armorDamageMultiplier="4"
+                          shieldDamageMultiplier="8" />
+            </damageItem>
+            <bullet>
+              <BulletItem bulletImage="../images/bullets/bulletSniper.png" speed="200"/>
+            </bullet>
+          </TowerItem>
+
+          <TowerItem platformTowerImage="../images/towers/killer_frost/TowerFrostPlatform.png"
+                     rotationTowerImage="../images/towers/killer_frost/TowerFrostRotation.png"
+                     towerImage="../images/towers/killer_frost/TowerFrostUI.png"
+                     unavailableTowerImage="../images/towers/killer_frost/TowerFrostUI_N.png"
+                     attackRadius="2" fireRate="0.4" baseTowerCost="24" multipleCostCoefficient="1.15"
+                     upgradeTowerCost="12"
+                     multipleUpgradeCostCoefficient="1.15" towerType="killer_frost" id="killer_frost"
+                     upgradeExperience="20" upgradeExperienceMultiplier="1.2">
+            <damageItem>
+              <DamageItem baseDamage="5" healthDamageMultiplier="3" armorDamageMultiplier="3"
+                          shieldDamageMultiplier="3" />
+            </damageItem>
+            <bullet>
+              <BulletItem bulletImage="../images/bullets/slowing.png" speed="200"/>
+            </bullet>
+          </TowerItem>
+
+        </list>
+      </towers>
+    </TowersInformationItem>
+  </towersItem>
+
+  <enemies>
+    <list>
+      <EnemyItem id="enemy_1" spawnValue="1" image="../images/enemies/enemy1.png" moveSpeed="40" healthPoint="200"
+                 armorPoint="0" shieldPoint="0" damage="1" goldBase="3"/>
+      <EnemyItem id="enemy_2" spawnValue="2" image="../images/enemies/enemy2.png" moveSpeed="40" healthPoint="450"
+                 armorPoint="0" shieldPoint="0" damage="1" goldBase="4"/>
+      <EnemyItem id="enemy_3" spawnValue="3" image="../images/enemies/enemy3.png" moveSpeed="40" healthPoint="300"
+                 armorPoint="400" shieldPoint="0" damage="1" goldBase="4"/>
+      <EnemyItem id="enemy_4" spawnValue="4" image="../images/enemies/enemy4.png" moveSpeed="45" healthPoint="500"
+                 armorPoint="400" shieldPoint="200" damage="1" goldBase="4"/>
+      <EnemyItem id="enemy_5" spawnValue="5" image="../images/enemies/enemy6.png" moveSpeed="65" healthPoint="250"
+                 armorPoint="600" shieldPoint="250" damage="1" goldBase="5"/>
+      <EnemyItem id="enemy_6" spawnValue="6" image="../images/enemies/enemy7.png" moveSpeed="45" healthPoint="500"
+                 armorPoint="500" shieldPoint="1200" damage="1" goldBase="5"/>
+      <EnemyItem id="enemy_7" spawnValue="10" image="../images/enemies/enemy5.png" moveSpeed="30" healthPoint="1600"
+                 armorPoint="1600" shieldPoint="1600" damage="2" goldBase="8"/>
+    </list>
+  </enemies>
+
+  <negativeEffectItems>
+    <list>
+      <DamageNegativeEffectItem negativeEffectType="blood" applyingTime="1000" maxApplyingDamagePerSecond="20"
+                                uiImage="../images/negative_effects_ui/blood.png">
+        <damageItem>
+          <DamageItem  baseDamage="30" healthDamageMultiplier="1.0" armorDamageMultiplier="0.8"
+                       shieldDamageMultiplier="0.6"/>
+        </damageItem>
+      </DamageNegativeEffectItem>
+
+      <DamageNegativeEffectItem negativeEffectType="fire" applyingTime="1000" maxApplyingDamagePerSecond="20"
+                                uiImage="../images/negative_effects_ui/fire.png">
+        <damageItem>
+          <DamageItem baseDamage="35" healthDamageMultiplier="0.8" armorDamageMultiplier="1.0"
+                      shieldDamageMultiplier="0.6"/>
+        </damageItem>
+      </DamageNegativeEffectItem>
+
+      <DamageNegativeEffectItem negativeEffectType="poison" applyingTime="1000" maxApplyingDamagePerSecond="20"
+                                uiImage="../images/negative_effects_ui/poison.png">
+        <damageItem>
+          <DamageItem  baseDamage="33" healthDamageMultiplier="0.8" armorDamageMultiplier="0.6"
+                       shieldDamageMultiplier="1.0" />
+        </damageItem>
+      </DamageNegativeEffectItem>
+
+      <SlowdownNegativeEffectItem negativeEffectType="slowdown" applyingTime="500" maxSlowdown="0.5" absorbingPerSecond="0.05"
+                                  uiImage="../images/negative_effects_ui/slowdown.png" baseSlowdown="0.15"/>
+    </list>
+  </negativeEffectItems>
+
+  <bonusesInformationItem>
+    <BonusesInformationItem selectedImage="../images/bonuses/BonusSelected.png"
+                            unselectedImage="../images/bonuses/BonusPanel.png">
+      <bonusItemList>
+        <list>
+          <TowerBonusItem bonusTowerType="ng_bleeding" uiImage="../images/bonuses/b_blood.png" bonusValue="0.25"
+                          description="Add 25% of blood damage to Beater tower" towerItem="beater"/>
+          <TowerBonusItem bonusTowerType="ng_bleeding" uiImage="../images/bonuses/b_blood.png" bonusValue="0.25"
+                          description="Add 25% of blood damage to Tesla tower" towerItem="tesla"/>
+          <TowerBonusItem bonusTowerType="ng_bleeding" uiImage="../images/bonuses/b_blood.png" bonusValue="0.25"
+                          description="Add 25% of blood damage to Luna tower" towerItem="luna"/>
+          <TowerBonusItem bonusTowerType="ng_bleeding" uiImage="../images/bonuses/b_blood.png" bonusValue="0.25"
+                          description="Add 25% of blood damage to Sniper tower" towerItem="sniper"/>
+          <TowerBonusItem bonusTowerType="ng_bleeding" uiImage="../images/bonuses/b_blood.png" bonusValue="0.25"
+                          description="Add 25% of blood damage to Killer Frost tower" towerItem="killer_frost"/>
+
+          <TowerBonusItem bonusTowerType="ng_fire" uiImage="../images/bonuses/b_fire.png" bonusValue="0.25"
+                          description="Add 25% of fire damage to Beater tower" towerItem="beater"/>
+          <TowerBonusItem bonusTowerType="ng_fire" uiImage="../images/bonuses/b_fire.png" bonusValue="0.25"
+                          description="Add 25% of fire damage to Tesla tower" towerItem="tesla"/>
+          <TowerBonusItem bonusTowerType="ng_fire" uiImage="../images/bonuses/b_fire.png" bonusValue="0.25"
+                          description="Add 25% of fire damage to Luna tower" towerItem="luna"/>
+          <TowerBonusItem bonusTowerType="ng_fire" uiImage="../images/bonuses/b_fire.png" bonusValue="0.25"
+                          description="Add 25% of fire damage to Sniper tower" towerItem="sniper"/>
+          <TowerBonusItem bonusTowerType="ng_fire" uiImage="../images/bonuses/b_fire.png" bonusValue="0.25"
+                          description="Add 25% of fire damage to Killer Frost tower" towerItem="killer_frost"/>
+
+          <TowerBonusItem bonusTowerType="ng_poison" uiImage="../images/bonuses/b_poison.png" bonusValue="0.25"
+                          description="Add 25% of poison damage to Beater tower" towerItem="beater"/>
+          <TowerBonusItem bonusTowerType="ng_poison" uiImage="../images/bonuses/b_poison.png" bonusValue="0.25"
+                          description="Add 25% of poison damage to Tesla tower" towerItem="tesla"/>
+          <TowerBonusItem bonusTowerType="ng_poison" uiImage="../images/bonuses/b_poison.png" bonusValue="0.25"
+                          description="Add 25% of poison damage to Luna tower" towerItem="luna"/>
+          <TowerBonusItem bonusTowerType="ng_poison" uiImage="../images/bonuses/b_poison.png" bonusValue="0.25"
+                          description="Add 25% of poison damage to Sniper tower" towerItem="sniper"/>
+          <TowerBonusItem bonusTowerType="ng_poison" uiImage="../images/bonuses/b_poison.png" bonusValue="0.25"
+                          description="Add 25% of poison damage to Killer Frost tower" towerItem="killer_frost"/>
+
+          <TowerBonusItem bonusTowerType="ng_slowdown" uiImage="../images/bonuses/b_slowdown.png" bonusValue="0.05"
+                          description="Add 5% of slowdown to Beater tower" towerItem="beater"/>
+          <TowerBonusItem bonusTowerType="ng_slowdown" uiImage="../images/bonuses/b_slowdown.png" bonusValue="0.05"
+                          description="Add 5% of slowdown to Tesla tower" towerItem="tesla"/>
+          <TowerBonusItem bonusTowerType="ng_slowdown" uiImage="../images/bonuses/b_slowdown.png" bonusValue="0.05"
+                          description="Add 5% of slowdown to Luna tower" towerItem="luna"/>
+          <TowerBonusItem bonusTowerType="ng_slowdown" uiImage="../images/bonuses/b_slowdown.png" bonusValue="0.05"
+                          description="Add 5% of slowdown to Sniper tower" towerItem="sniper"/>
+          <TowerBonusItem bonusTowerType="ng_slowdown" uiImage="../images/bonuses/b_slowdown.png" bonusValue="0.05"
+                          description="Add 5% of slowdown to Killer Frost tower" towerItem="killer_frost"/>
+
+
+          <TowerBonusItem bonusTowerType="damage_health" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 health damage to Beater tower" towerItem="beater"/>
+          <TowerBonusItem bonusTowerType="damage_health" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 health damage to Tesla tower" towerItem="tesla"/>
+          <TowerBonusItem bonusTowerType="damage_health" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 health damage to Luna tower" towerItem="luna"/>
+          <TowerBonusItem bonusTowerType="damage_health" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 health damage to Sniper tower" towerItem="sniper"/>
+          <TowerBonusItem bonusTowerType="damage_health" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 health damage to Killer Frost tower" towerItem="killer_frost"/>
+
+          <TowerBonusItem bonusTowerType="damage_armor" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 armor damage to Beater tower" towerItem="beater"/>
+          <TowerBonusItem bonusTowerType="damage_armor" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 armor damage to Tesla tower" towerItem="tesla"/>
+          <TowerBonusItem bonusTowerType="damage_armor" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 armor damage to Luna tower" towerItem="luna"/>
+          <TowerBonusItem bonusTowerType="damage_armor" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 armor damage to Sniper tower" towerItem="sniper"/>
+          <TowerBonusItem bonusTowerType="damage_armor" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 armor damage to Killer Frost tower" towerItem="killer_frost"/>
+
+          <TowerBonusItem bonusTowerType="damage_shield" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 shield damage to Beater tower" towerItem="beater"/>
+          <TowerBonusItem bonusTowerType="damage_shield" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 shield damage to Tesla tower" towerItem="tesla"/>
+          <TowerBonusItem bonusTowerType="damage_shield" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 shield damage to Luna tower" towerItem="luna"/>
+          <TowerBonusItem bonusTowerType="damage_shield" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 shield damage to Sniper tower" towerItem="sniper"/>
+          <TowerBonusItem bonusTowerType="damage_shield" uiImage="../images/bonuses/b_damage.png" bonusValue="2"
+                          description="Add 2 shield damage to Killer Frost tower" towerItem="killer_frost"/>
+
+          <TowerBonusItem bonusTowerType="firerate" uiImage="../images/bonuses/b_firerate.png" bonusValue="0.25"
+                          description="Add 25% fire rate to Beater tower" towerItem="beater"/>
+          <TowerBonusItem bonusTowerType="firerate" uiImage="../images/bonuses/b_firerate.png" bonusValue="0.25"
+                          description="Add 25% fire rate to Tesla tower" towerItem="tesla"/>
+          <TowerBonusItem bonusTowerType="firerate" uiImage="../images/bonuses/b_firerate.png" bonusValue="0.25"
+                          description="Add 25% fire rate to Luna tower" towerItem="luna"/>
+          <TowerBonusItem bonusTowerType="firerate" uiImage="../images/bonuses/b_firerate.png" bonusValue="0.25"
+                          description="Add 25% fire rate to Sniper tower" towerItem="sniper"/>
+         <TowerBonusItem bonusTowerType="firerate" uiImage="../images/bonuses/b_firerate.png" bonusValue="0.25"
+                          description="Add 25% fire rate to Killer Frost tower" towerItem="killer_frost"/>
+
+          <TowerBonusItem bonusTowerType="range" uiImage="../images/bonuses/b_range.png" bonusValue="0.25"
+                          description="Add 25% range to Beater tower" towerItem="beater"/>
+          <TowerBonusItem bonusTowerType="range" uiImage="../images/bonuses/b_range.png" bonusValue="0.25"
+                          description="Add 25% range to Tesla tower" towerItem="tesla"/>
+          <TowerBonusItem bonusTowerType="range" uiImage="../images/bonuses/b_range.png" bonusValue="0.25"
+                          description="Add 25% range to Luna tower" towerItem="luna"/>
+          <TowerBonusItem bonusTowerType="range" uiImage="../images/bonuses/b_range.png" bonusValue="0.25"
+                          description="Add 25% range to Sniper tower" towerItem="sniper"/>
+          <TowerBonusItem bonusTowerType="range" uiImage="../images/bonuses/b_range.png" bonusValue="0.25"
+                          description="Add 25% range to Killer Frost tower" towerItem="killer_frost"/>
+
+          <EnemyBonusItem bonusEnemyType="ng_apply_blood" uiImage="../images/bonuses/b_blood.png" bonusValue="15"
+                          description="Increase maximum bleed damage per second +10 to 35 "/>
+          <EnemyBonusItem bonusEnemyType="ng_apply_fire" uiImage="../images/bonuses/b_fire.png" bonusValue="15"
+                          description="Increase maximum fire damage per second +10 to 35"/>
+          <EnemyBonusItem bonusEnemyType="ng_apply_poison" uiImage="../images/bonuses/b_poison.png" bonusValue="15"
+                          description="Increase maximum poison damage per second +10 to 35"/>
+          <EnemyBonusItem bonusEnemyType="money_for_kill" uiImage="../images/bonuses/b_money.png" bonusValue="1"
+                          description="Add additional 1 coin for enemy enemy death"/>
+
+        </list>
+      </bonusItemList>
+    </BonusesInformationItem>
+  </bonusesInformationItem>
+
+  <towerPriorityItems>
+    <list>
+      <TowerPriorityItem towerPriorityType="FIRST" priorityImage="../images/priority/priority_first.png"
+                         description="First"/>
+      <TowerPriorityItem towerPriorityType="LAST" priorityImage="../images/priority/priority_last.png"
+                         description="Last"/>
+      <TowerPriorityItem towerPriorityType="RANDOM" priorityImage="../images/priority/priority_random.png"
+                         description="Random"/>
+      <TowerPriorityItem towerPriorityType="MOST_HEALTH" priorityImage="../images/priority/priority_health.png"
+                         description="Most Health"/>
+      <TowerPriorityItem towerPriorityType="MOST_ARMOR" priorityImage="../images/priority/priority_armor.png"
+                         description="Most Armor"/>
+      <TowerPriorityItem towerPriorityType="MOST_SHIELD" priorityImage="../images/priority/priority_shield.png"
+                         description="Most Shield"/>
+    </list>
+  </towerPriorityItems>
+</Items>

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f3e3e8364ad42a4bc9f7f0720fc1cfd, type: 3}
+  m_Name: TowersInformationItem
+  m_EditorClassIdentifier: 
+  towerItems:
+  - towerType: 0
+    prefab: {fileID: 8537993778559479748, guid: c3b15f4d518b341e090edb51bfc3ef3d, type: 3}
+    towerName: Beater
+    baseDamage: 5
+    healthDamageMultiplier: 5
+    armorDamageMultiplier: 3
+    shieldDamageMultiplier: 2
+    range: 2.6
+    fireRate: 2.5
+    cost: 20
+    costMultiplier: 1.3
+    updateCost: 15
+    updateCostMultiplier: 1.2
+    autoUpgradeExperience: 30
+    autoUpgradeExperienceMultiplier: 1.3
+  - towerType: 4
+    prefab: {fileID: 2626419286303636378, guid: c33f8cd32ad6a45459ceb02165d435c8, type: 3}
+    towerName: Tesla
+    baseDamage: 4
+    healthDamageMultiplier: 5
+    armorDamageMultiplier: 7
+    shieldDamageMultiplier: 5
+    range: 2
+    fireRate: 0.35
+    cost: 30
+    costMultiplier: 1.15
+    updateCost: 15
+    updateCostMultiplier: 1.15
+    autoUpgradeExperience: 30
+    autoUpgradeExperienceMultiplier: 1.15
+  - towerType: 2
+    prefab: {fileID: 1617280400726747047, guid: f2cbb5a7652ef44a1a0a759a0e4085e6, type: 3}
+    towerName: Luna
+    baseDamage: 4
+    healthDamageMultiplier: 3
+    armorDamageMultiplier: 7
+    shieldDamageMultiplier: 3
+    range: 2.2
+    fireRate: 3
+    cost: 40
+    costMultiplier: 1.3
+    updateCost: 15
+    updateCostMultiplier: 1.15
+    autoUpgradeExperience: 35
+    autoUpgradeExperienceMultiplier: 1.3
+  - towerType: 3
+    prefab: {fileID: 6527399222639114986, guid: 119ceed5c3f7b4863b5d1c62eac0906d, type: 3}
+    towerName: Sniper
+    baseDamage: 6
+    healthDamageMultiplier: 4
+    armorDamageMultiplier: 4
+    shieldDamageMultiplier: 8
+    range: 3
+    fireRate: 1
+    cost: 45
+    costMultiplier: 1.15
+    updateCost: 12
+    updateCostMultiplier: 1.15
+    autoUpgradeExperience: 19
+    autoUpgradeExperienceMultiplier: 1.17
+  - towerType: 1
+    prefab: {fileID: 3432061592155250559, guid: f35425f26bb4844d582daf9de1fcec40, type: 3}
+    towerName: Killer Frost
+    baseDamage: 5
+    healthDamageMultiplier: 3
+    armorDamageMultiplier: 3
+    shieldDamageMultiplier: 3
+    range: 2
+    fireRate: 0.4
+    cost: 24
+    costMultiplier: 1.15
+    updateCost: 12
+    updateCostMultiplier: 1.15
+    autoUpgradeExperience: 20
+    autoUpgradeExperienceMultiplier: 1.2

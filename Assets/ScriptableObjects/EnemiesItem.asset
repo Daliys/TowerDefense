@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4317572e5e074c6796c5ad6e2b926e60, type: 3}
+  m_Name: EnemiesItem
+  m_EditorClassIdentifier: 
+  enemiesItems:
+  - enemyType: 0
+    prefab: {fileID: 2709424148367056825, guid: d1430d48ea5cb410eac4c289f35e62b3, type: 3}
+    spawnValue: 1
+    moveSpeed: 40
+    health: 200
+    armor: 0
+    shield: 0
+    damage: 1
+    gold: 3
+  - enemyType: 1
+    prefab: {fileID: 756382229203557119, guid: 642fa2e4dce0d4a4c80081d6986946f4, type: 3}
+    spawnValue: 2
+    moveSpeed: 40
+    health: 450
+    armor: 0
+    shield: 0
+    damage: 1
+    gold: 4
+  - enemyType: 2
+    prefab: {fileID: 1365300509987907748, guid: 1624bb2c865464426888bb3124e62a2f, type: 3}
+    spawnValue: 3
+    moveSpeed: 40
+    health: 300
+    armor: 400
+    shield: 0
+    damage: 1
+    gold: 4
+  - enemyType: 3
+    prefab: {fileID: 501698255721053642, guid: c0e4bbdf343b94d968496bae56ab00db, type: 3}
+    spawnValue: 4
+    moveSpeed: 45
+    health: 500
+    armor: 400
+    shield: 200
+    damage: 1
+    gold: 4
+  - enemyType: 4
+    prefab: {fileID: 6035467342817423223, guid: 273b01166982b4583adbec7e1a689768, type: 3}
+    spawnValue: 5
+    moveSpeed: 65
+    health: 250
+    armor: 600
+    shield: 250
+    damage: 1
+    gold: 5
+  - enemyType: 5
+    prefab: {fileID: 8465556059227592331, guid: 752fbff3beda74e9b861f822bf947933, type: 3}
+    spawnValue: 6
+    moveSpeed: 45
+    health: 500
+    armor: 500
+    shield: 1200
+    damage: 1
+    gold: 5
+  - enemyType: 6
+    prefab: {fileID: 6161148407028385785, guid: 052de372f7db7495a9901675fb26f77c, type: 3}
+    spawnValue: 10
+    moveSpeed: 30
+    health: 1600
+    armor: 1600
+    shield: 1600
+    damage: 2
+    gold: 8
