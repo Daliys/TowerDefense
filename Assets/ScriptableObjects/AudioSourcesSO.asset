@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90905a36079a4c928a5e23eba83c2e68, type: 3}
+  m_Name: AudioSourcesSO
+  m_EditorClassIdentifier: 
+  menuMusic:
+  - {fileID: 8300000, guid: f5ee21cf8fb714d6492f4bd36526832c, type: 3}
+  - {fileID: 8300000, guid: 42088c686d43445edba06281e324ee8d, type: 3}
+  gameMusic:
+  - {fileID: 8300000, guid: 6cb9ff74a536944baab35afe99fc17ba, type: 3}
+  - {fileID: 8300000, guid: aad7a7fba16964d45be7c4ebe62a3ae1, type: 3}
+  - {fileID: 8300000, guid: 1ecbc4ca893514424b3b391184d00869, type: 3}
+  enemyReachedPortalSound: {fileID: 8300000, guid: ef649b03a04204cea836f92dc966a3f8, type: 3}
+  enemyDiedSound: {fileID: 8300000, guid: 51ab7a3bf99a745d8b2956bed43beed1, type: 3}
+  towerAttackSound: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
+  towerRangeDamageSound: {fileID: 8300000, guid: ab297b593498a6e47ba84de770477cbe, type: 3}

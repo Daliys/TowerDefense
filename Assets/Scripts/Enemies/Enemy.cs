@@ -113,6 +113,7 @@ namespace Enemies
             else
             {
                 OnEnemyReachedEnd?.Invoke(this);
+                AudioManager.instance?.PlayEnemyReachedPortalSound();
             }
         }
 

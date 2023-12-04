@@ -38,6 +38,11 @@ public class GameScene : MonoBehaviour
         enemyWaveGenerator.StartGenerate(gameInformation.currentLevel.wavesItem, tiledMap);
     }
 
+    private void Start()
+    {
+        AudioManager.instance?.PlayGameMusic();
+    }
+
 
     private void Update()
     {

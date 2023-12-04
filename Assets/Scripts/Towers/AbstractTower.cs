@@ -22,7 +22,8 @@ namespace Towers
         [SerializeField] protected GameObject rotationImage; // Rotation visual indicator
         [SerializeField] protected GameObject towerRangeImage; // Tower range visual indicator
         [SerializeField] protected StartTowerBonus[] startTowerBonus; // Initial bonuses for the tower
-
+        [SerializeField] protected AudioSource audioSource; // Audio source for the tower
+        
         protected TowerManager towerManager; // Reference to the tower manager
         private TowerPriority currentPriority; // Current attack priority of the tower
         private ApplyingDamage applyingDamage; // Damage application manager

@@ -14,6 +14,11 @@ namespace UI
         [SerializeField] private LevelItem levelItem2;
         [SerializeField] private LevelItem levelItem3;
 
+        private void Start()
+        {
+            AudioManager.instance?.PlayMenuMusic();
+        }
+       
         /// <summary>
         ///  Loads the game scene with the selected level.
         /// </summary>

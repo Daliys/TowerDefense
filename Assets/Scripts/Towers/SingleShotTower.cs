@@ -9,6 +9,7 @@ namespace Towers
     public class SingleShotTower : AbstractTower
     {
         [SerializeField] private GameObject bulletPrefab; // Prefab for the bullets fired by this tower.
+        [SerializeField] private AudioClip[] shootSounds; // The sounds played when the tower shoots.
         private Enemy _targetEnemy; // The current target enemy for the tower.
 
         /// <summary>
@@ -24,6 +25,8 @@ namespace Towers
             Bullet bullet = ObjectPooling.instance.GetObject(GetTowerType()).GetComponent<Bullet>();
             bullet.transform.position = transform.position;
             bullet.Initialize(_targetEnemy, GetApplyingDamageToEnemy());
+            audioSource.clip = shootSounds[Random.Range(0, shootSounds.Length)];
+            audioSource.Play();
         }
 
         /// <summary>

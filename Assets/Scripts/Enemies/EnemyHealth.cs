@@ -159,6 +159,7 @@ namespace Enemies
                 _currentHealthPoint = 0;
                 OnEnemyDiedHandler();
                 OnEnemyDied?.Invoke(_enemy);
+                AudioManager.instance?.PlayEnemyDiedSound();
             }
         }
 

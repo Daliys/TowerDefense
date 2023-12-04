@@ -41,6 +41,8 @@ namespace Towers
             {
                 enemy.TakeDamage(GetApplyingDamageToEnemy());
             }
+            
+            audioSource.Play();
 
             StartCoroutine(AttackAnimation());
         }
