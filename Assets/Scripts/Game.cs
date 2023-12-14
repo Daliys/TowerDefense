@@ -35,8 +35,7 @@ public class Game
     /// </summary>
     public Game()
     {
-        //TODO : Load from save
-        _coins += 1000;
+        _coins = 0;
         _health = 10;
 
         OnAmountOfCoinsChanged?.Invoke(_coins);
@@ -100,7 +99,7 @@ public class Game
     /// Adds coins to the player's total.
     /// </summary>
     /// <param name="amount">The amount of coins to add.</param>
-    private void AddCoins(int amount)
+    public void AddCoins(int amount)
     {
         _coins += amount;
         OnAmountOfCoinsChanged?.Invoke(_coins);

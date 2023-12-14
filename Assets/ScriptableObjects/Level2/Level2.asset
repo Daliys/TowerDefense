@@ -16,3 +16,4 @@ MonoBehaviour:
   menuLevelSprite: {fileID: 21300000, guid: 6eafd57ca48da470a9b788102535a2a6, type: 3}
   mapItem: {fileID: 11400000, guid: 87969419b31dd4adf8c8b4d2cb74e137, type: 2}
   wavesItem: {fileID: 11400000, guid: e7f19fb8bf81e4ffdb3daf37b164dfd5, type: 2}
+  startingCoins: 200

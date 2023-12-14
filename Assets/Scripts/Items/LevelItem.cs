@@ -28,5 +28,7 @@ namespace Items
         /// The wave configurations for this level.
         /// </summary>
         public WavesItem wavesItem;
+        
+        public int startingCoins;
     }
 }

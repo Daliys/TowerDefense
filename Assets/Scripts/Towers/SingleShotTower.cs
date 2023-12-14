@@ -25,8 +25,11 @@ namespace Towers
             Bullet bullet = ObjectPooling.instance.GetObject(GetTowerType()).GetComponent<Bullet>();
             bullet.transform.position = transform.position;
             bullet.Initialize(_targetEnemy, GetApplyingDamageToEnemy());
-            audioSource.clip = shootSounds[Random.Range(0, shootSounds.Length)];
-            audioSource.Play();
+            if (shootSounds.Length > 0)
+            {
+                audioSource.clip = shootSounds[Random.Range(0, shootSounds.Length)];
+                audioSource.Play();
+            }
         }
 
         /// <summary>

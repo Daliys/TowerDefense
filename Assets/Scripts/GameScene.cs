@@ -30,12 +30,14 @@ public class GameScene : MonoBehaviour
     private void Awake()
     {
         game = new Game();
+        game.AddCoins(gameInformation.currentLevel.startingCoins);
         mainCamera = Camera.main;
         
         tiledMap.Initialize(this,gameInformation.currentLevel.mapItem);
         towerManager.Initialize(this);
         bonusesBetweenWaves.Initialize(this);
         enemyWaveGenerator.StartGenerate(gameInformation.currentLevel.wavesItem, tiledMap);
+        
     }
 
     private void Start()

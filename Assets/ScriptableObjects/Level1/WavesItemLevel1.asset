@@ -16,29 +16,29 @@ MonoBehaviour:
   timeBetweenWaves: 12
   enemyMaxOffset: 0.3
   waveItems:
-  - waveGenerationPoints: 4
+  - waveGenerationPoints: 3
     enemyTypes: 00000000
-  - waveGenerationPoints: 8
+  - waveGenerationPoints: 6
+    enemyTypes: 0000000001000000
+  - waveGenerationPoints: 12
     enemyTypes: 0000000001000000
   - waveGenerationPoints: 15
-    enemyTypes: 0000000001000000
-  - waveGenerationPoints: 18
+    enemyTypes: 000000000100000002000000
+  - waveGenerationPoints: 20
     enemyTypes: 000000000100000002000000
   - waveGenerationPoints: 30
-    enemyTypes: 000000000100000002000000
-  - waveGenerationPoints: 44
     enemyTypes: 00000000010000000200000003000000
-  - waveGenerationPoints: 63
+  - waveGenerationPoints: 40
     enemyTypes: 00000000010000000200000003000000
-  - waveGenerationPoints: 81
+  - waveGenerationPoints: 55
     enemyTypes: 04000000010000000200000003000000
-  - waveGenerationPoints: 96
+  - waveGenerationPoints: 69
     enemyTypes: 040000000300000005000000
-  - waveGenerationPoints: 105
+  - waveGenerationPoints: 78
     enemyTypes: 0000000002000000030000000400000006000000
-  - waveGenerationPoints: 124
+  - waveGenerationPoints: 90
     enemyTypes: 00000000010000000400000005000000
-  - waveGenerationPoints: 150
+  - waveGenerationPoints: 110
     enemyTypes: 00000000030000000400000005000000
-  - waveGenerationPoints: 200
+  - waveGenerationPoints: 130
     enemyTypes: 00000000010000000200000003000000040000000500000006000000

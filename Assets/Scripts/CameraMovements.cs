@@ -18,7 +18,7 @@ public class CameraMovements : MonoBehaviour
     ///  This is the starting zoom of the camera. Used to calculate the additional speed of the camera.
     /// </summary>
     private readonly float _startZoom = 5f;
-
+    private const float TimePerFrame = 1f/60/7f;
 
     private void Awake()
     {
@@ -30,35 +30,35 @@ public class CameraMovements : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W) && transform.position.y < moveBorder.y)
         {
-            transform.position += Vector3.up * (Time.deltaTime * moveSpeed * _camera.orthographicSize) / _startZoom;
+            transform.position += Vector3.up * (moveSpeed * _camera.orthographicSize *TimePerFrame) / _startZoom;
         }
 
         if (Input.GetKey(KeyCode.S) && transform.position.y > -moveBorder.y)
         {
-            transform.position += Vector3.down * (Time.deltaTime * moveSpeed * _camera.orthographicSize) / _startZoom;
+            transform.position += Vector3.down * (moveSpeed * _camera.orthographicSize * TimePerFrame) / _startZoom;
         }
 
         if (Input.GetKey(KeyCode.A) && transform.position.x > -moveBorder.x)
         {
-            transform.position += Vector3.left * (Time.deltaTime * moveSpeed * _camera.orthographicSize) / _startZoom;
+            transform.position += Vector3.left * (moveSpeed * _camera.orthographicSize* TimePerFrame) / _startZoom;
         }
 
         if (Input.GetKey(KeyCode.D) && transform.position.x < moveBorder.x)
         {
-            transform.position += Vector3.right * (Time.deltaTime * moveSpeed * _camera.orthographicSize) / _startZoom;
+            transform.position += Vector3.right * (moveSpeed * _camera.orthographicSize * TimePerFrame) / _startZoom;
         }
 
         if (Input.GetKey(KeyCode.Q))
         {
             if (_camera.orthographicSize < zoomBorder.y)
-                _camera.orthographicSize += Time.deltaTime * zoomSpeed;
+                _camera.orthographicSize +=TimePerFrame * zoomSpeed;
 
         }
 
         if (Input.GetKey(KeyCode.E))
         {
             if (_camera.orthographicSize > zoomBorder.x)
-                _camera.orthographicSize -= Time.deltaTime * zoomSpeed;
+                _camera.orthographicSize -= TimePerFrame * zoomSpeed;
         }
 
         if (Input.GetAxis("Mouse ScrollWheel") > 0f)
